@@ -141,9 +141,9 @@ body {
 }
 
 .gpg-inline .gpg-label {
-    color: var(--text-muted);
-    font-size: 0.9rem;
-    font-weight: 500;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .gpg-inline code {
