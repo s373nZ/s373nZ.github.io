@@ -31,76 +31,193 @@
         <main>
             <section class="contributions">
                 <h2>Open Source Contributions</h2>
-                
-                <div class="project-grid">
-                    <article class="project">
-                        <div class="project-header">
-                            <span class="project-icon">⚡</span>
-                            <h3>Lightning Network</h3>
-                        </div>
-                        <p class="project-desc">Core Lightning implementation, CLBOSS automated node management, and RTL web interface contributions.</p>
-                        <div class="project-tags">
-                            <span class="tag">Core Lightning</span>
-                            <span class="tag">CLBOSS</span>
-                            <span class="tag">RTL</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/ElementsProject/lightning" target="_blank" rel="noopener">Core Lightning →</a>
-                            <a href="https://github.com/ZmnSCPxj/clboss" target="_blank" rel="noopener">CLBOSS →</a>
-                        </div>
-                    </article>
 
-                    <article class="project">
-                        <div class="project-header">
-                            <span class="project-icon">🎓</span>
+                <!-- Core Lightning -->
+                <article class="project-detail">
+                    <div class="project-header-detail">
+                        <img src="https://raw.githubusercontent.com/ElementsProject/lightning/master/doc/logo.png" alt="Core Lightning" class="project-logo" onerror="this.style.display='none'">
+                        <div class="project-title-group">
+                            <h3>Core Lightning</h3>
+                            <p class="project-subtitle">Lightning Network implementation focusing on spec compliance and performance</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-row">
+                        <span class="skill">C</span>
+                        <span class="skill">Docker</span>
+                        <span class="skill">CI/CD</span>
+                        <span class="skill">Release Engineering</span>
+                        <span class="skill">PostgreSQL</span>
+                    </div>
+
+                    <div class="contributions-list">
+                        <h4>Contributions</h4>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/ElementsProject/lightning/pull/7797" target="_blank">Release Automation</a>
+                                <span class="pr-status merged">Merged</span>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ElementsProject/lightning/pull/7921" target="_blank">Fix libpq for Docker multi-arch builds and Bookworm upgrade</a>
+                                <span class="pr-status merged">Merged</span>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ElementsProject/lightning/pull/8548" target="_blank">Remove debug log noise from listdatastore</a>
+                                <span class="pr-status merged">Merged</span>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ElementsProject/lightning/pull/7744" target="_blank">Default value for received_time in listforwards</a>
+                                <span class="pr-status merged">Merged</span>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ElementsProject/lightning/pull/7764" target="_blank">Fix openchannel_abort generated JSON schema</a>
+                                <span class="pr-status merged">Merged</span>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ElementsProject/lightning/pull/8193" target="_blank">Pre-commit hooks implementation</a>
+                                <span class="pr-status merged">Merged</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="project-links-detail">
+                        <a href="https://github.com/ElementsProject/lightning" target="_blank">View Repository →</a>
+                    </div>
+                </article>
+
+                <!-- RTL -->
+                <article class="project-detail">
+                    <div class="project-header-detail">
+                        <img src="https://raw.githubusercontent.com/Ride-The-Lightning/RTL/master/src/assets/images/rtl_logo.png" alt="RTL" class="project-logo" onerror="this.style.display='none'">
+                        <div class="project-title-group">
+                            <h3>Ride The Lightning (RTL)</h3>
+                            <p class="project-subtitle">Full-function web browser app for Lightning Network node management</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-row">
+                        <span class="skill">TypeScript</span>
+                        <span class="skill">Angular</span>
+                        <span class="skill">BOLT12</span>
+                    </div>
+
+                    <div class="contributions-list">
+                        <h4>Contributions</h4>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/Ride-The-Lightning/RTL/pull/1451" target="_blank">Fix "Unknown command" error when disabling Bolt12 offers on CLN</a>
+                                <span class="pr-status merged">Merged</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="project-links-detail">
+                        <a href="https://github.com/Ride-The-Lightning/RTL" target="_blank">View Repository →</a>
+                    </div>
+                </article>
+
+                <!-- Saving Satoshi -->
+                <article class="project-detail">
+                    <div class="project-header-detail">
+                        <img src="https://avatars.githubusercontent.com/u/103712676?s=200&v=4" alt="Chaincode Labs" class="project-logo">
+                        <div class="project-title-group">
                             <h3>Saving Satoshi</h3>
+                            <p class="project-subtitle">Chaincode Labs — Interactive Bitcoin education platform</p>
                         </div>
-                        <p class="project-desc">AWS infrastructure automation and backend development for Chaincode Labs' Bitcoin education platform.</p>
-                        <div class="project-tags">
-                            <span class="tag">TypeScript</span>
-                            <span class="tag">AWS</span>
-                            <span class="tag">Infrastructure</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://savingsatoshi.com" target="_blank" rel="noopener">Live Site →</a>
-                            <a href="https://github.com/saving-satoshi/saving-satoshi-backend" target="_blank" rel="noopener">Backend →</a>
-                        </div>
-                    </article>
+                    </div>
+                    
+                    <div class="skills-row">
+                        <span class="skill">TypeScript</span>
+                        <span class="skill">AWS</span>
+                        <span class="skill">Docker</span>
+                        <span class="skill">GitHub Actions</span>
+                        <span class="skill">WebSocket</span>
+                        <span class="skill">Infrastructure</span>
+                    </div>
 
-                    <article class="project">
-                        <div class="project-header">
-                            <span class="project-icon">🔍</span>
+                    <div class="contributions-list">
+                        <h4>Contributions</h4>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/saving-satoshi/saving-satoshi-backend/pull/78" target="_blank">Infrastructure Automation</a>
+                                <span class="pr-status merged">Merged</span>
+                            </li>
+                            <li>
+                                <a href="https://github.com/saving-satoshi/saving-satoshi-backend/pull/80" target="_blank">Enable Docker container AutoRemove and refactor container management</a>
+                                <span class="pr-status merged">Merged</span>
+                            </li>
+                            <li>
+                                <a href="https://github.com/saving-satoshi/saving-satoshi-backend/pull/93" target="_blank">Post-deploy infrastructure workflow cleanup</a>
+                                <span class="pr-status merged">Merged</span>
+                            </li>
+                            <li>
+                                <a href="https://github.com/saving-satoshi/saving-satoshi-backend/pull/84" target="_blank">WebSocket and REPL tests, refactor to AppFactory pattern</a>
+                                <span class="pr-status open">Open</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="project-links-detail">
+                        <a href="https://savingsatoshi.com" target="_blank">Live Site →</a>
+                        <a href="https://github.com/saving-satoshi/saving-satoshi-backend" target="_blank">View Repository →</a>
+                    </div>
+                </article>
+
+                <!-- CoreCheck -->
+                <article class="project-detail">
+                    <div class="project-header-detail">
+                        <div class="project-logo-placeholder">🔍</div>
+                        <div class="project-title-group">
                             <h3>CoreCheck</h3>
+                            <p class="project-subtitle">Bitcoin Core CI/CD infrastructure and testing platform</p>
                         </div>
-                        <p class="project-desc">Bitcoin Core CI/CD infrastructure and testing platform. Automated build verification and performance benchmarking.</p>
-                        <div class="project-tags">
-                            <span class="tag">Bitcoin Core</span>
-                            <span class="tag">CI/CD</span>
-                            <span class="tag">Testing</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://corecheck.dev" target="_blank" rel="noopener">corecheck.dev →</a>
-                            <a href="https://github.com/corecheck/corecheck" target="_blank" rel="noopener">Source →</a>
-                        </div>
-                    </article>
+                    </div>
+                    
+                    <div class="skills-row">
+                        <span class="skill">CI/CD</span>
+                        <span class="skill">Testing</span>
+                        <span class="skill">Bitcoin Core</span>
+                    </div>
 
-                    <article class="project">
-                        <div class="project-header">
-                            <span class="project-icon">🖥️</span>
+                    <div class="contributions-list">
+                        <h4>Contributions</h4>
+                        <p class="contribution-note">Contributor to automated build verification and performance benchmarking infrastructure for Bitcoin Core.</p>
+                    </div>
+
+                    <div class="project-links-detail">
+                        <a href="https://corecheck.dev" target="_blank">corecheck.dev →</a>
+                        <a href="https://github.com/corecheck/corecheck" target="_blank">View Repository →</a>
+                    </div>
+                </article>
+
+                <!-- Node Infrastructure -->
+                <article class="project-detail">
+                    <div class="project-header-detail">
+                        <div class="project-logo-placeholder">🖥️</div>
+                        <div class="project-title-group">
                             <h3>Node Infrastructure</h3>
+                            <p class="project-subtitle">Bitcoin and Lightning node deployment guides and tooling</p>
                         </div>
-                        <p class="project-desc">Bitcoin and Lightning node deployment guides and tooling. Making sovereign node operation accessible.</p>
-                        <div class="project-tags">
-                            <span class="tag">RaspiBlitz</span>
-                            <span class="tag">MiniBolt</span>
-                            <span class="tag">Self-Custody</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/raspiblitz/raspiblitz" target="_blank" rel="noopener">RaspiBlitz →</a>
-                            <a href="https://github.com/minibolt-guide/minibolt" target="_blank" rel="noopener">MiniBolt →</a>
-                        </div>
-                    </article>
-                </div>
+                    </div>
+                    
+                    <div class="skills-row">
+                        <span class="skill">Linux</span>
+                        <span class="skill">Raspberry Pi</span>
+                        <span class="skill">Self-Custody</span>
+                        <span class="skill">Documentation</span>
+                    </div>
+
+                    <div class="contributions-list">
+                        <h4>Projects</h4>
+                        <p class="contribution-note">Contributing to documentation and tooling for sovereign Bitcoin node operation.</p>
+                    </div>
+
+                    <div class="project-links-detail">
+                        <a href="https://github.com/raspiblitz/raspiblitz" target="_blank">RaspiBlitz →</a>
+                        <a href="https://github.com/minibolt-guide/minibolt" target="_blank">MiniBolt →</a>
+                    </div>
+                </article>
+
             </section>
 
             <section class="gpg">
