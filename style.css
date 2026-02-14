@@ -173,6 +173,11 @@ section > h2 {
     padding: 8px;
 }
 
+.project-logo-light {
+    background: #ffffff;
+    padding: 10px;
+}
+
 .project-logo-placeholder {
     width: 64px;
     height: 64px;
