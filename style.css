@@ -264,6 +264,30 @@ section > h2 {
     list-style: none;
 }
 
+.contributions-list ul.scrollable-list {
+    max-height: 350px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.contributions-list ul.scrollable-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.contributions-list ul.scrollable-list::-webkit-scrollbar-track {
+    background: var(--bg-tertiary);
+    border-radius: 3px;
+}
+
+.contributions-list ul.scrollable-list::-webkit-scrollbar-thumb {
+    background: var(--text-muted);
+    border-radius: 3px;
+}
+
+.contributions-list ul.scrollable-list::-webkit-scrollbar-thumb:hover {
+    background: var(--text-secondary);
+}
+
 .contributions-list li {
     padding: 12px 0;
     border-bottom: 1px solid var(--border);
