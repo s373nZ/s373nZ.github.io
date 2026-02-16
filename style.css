@@ -265,7 +265,7 @@ section > h2 {
 }
 
 .contributions-list ul.scrollable-list {
-    max-height: 350px;
+    max-height: 370px;
     overflow-y: auto;
     padding-right: 8px;
 }
