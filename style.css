@@ -125,6 +125,19 @@ body {
     transform: translateY(-2px);
 }
 
+.btn-nostr {
+    background: #7B4DCD;
+    color: #ffffff;
+    border: 1px solid #9466E8;
+}
+
+.btn-nostr:hover {
+    background: #6B3DBD;
+    border-color: #A478F0;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(123, 77, 205, 0.3);
+}
+
 .icon {
     width: 18px;
     height: 18px;
