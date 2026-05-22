@@ -70,7 +70,37 @@ body {
     font-size: 1.25rem;
     color: var(--accent);
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+}
+
+.affiliation {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.affiliation-text {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.affiliation a {
+    display: inline-flex;
+    opacity: 0.9;
+    transition: opacity 0.2s ease;
+}
+
+.affiliation a:hover {
+    opacity: 1;
+}
+
+.affiliation-logo {
+    height: 32px;
+    width: auto;
+    border-radius: 6px;
 }
 
 .bio {
